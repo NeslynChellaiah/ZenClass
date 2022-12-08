@@ -1,0 +1,27 @@
+Document:
+
+    * The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content
+    * Document is an object of the window property.
+    * Any HTML file or a web page which is loaded in a web browser is a document.
+    * HTML document is loaded inside a window.
+    * All the HTML tags, elements and attributes are part of the document.
+    * Document is a part of browser object model and document object model.
+    * A document can be accessed from a window.
+    * Properties of document objects like title, body etc can also be accessed by a window.
+    * Syntax => document.<propertyname>;
+    eg:
+        document.title returns the document's title.
+
+Window:
+
+    * The JavaScript window object sits at the top of the JavaScript Object hierarchy and represents the browser window.
+    * Window is an object of the browser.
+    * Window is a area or a browser window which renders a web page.
+    * It is the first object which is loaded in the browser.
+    * All global objects, functions and variables are part of the window object.
+    * Window is only a part of browser object model and not document object model.
+    * A window can only be accessed from the window.
+    * Properties of a window cannot be accessed by a document.
+    * Syntax => window.<propertyname>
+    eg:
+        window.innerHeight returns the height of the browser's content area.
