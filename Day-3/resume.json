@@ -1,0 +1,30 @@
+{
+  "name": "Neslyn",
+  "mobile": "9xxxxxxxx0",
+  "email": "neslyn@gmail.com",
+  "linkedIn": "https://www.linkedin.com/in/neslyn-chellaiah-p/",
+  "github": "https://github.com/NeslynChellaiah",
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Tendercuts",
+      "from": "APR-2022",
+      "to": "Present",
+      "techstack": ["Angular", "HTML", "CSS", "TypeScript"]
+    },
+    {
+      "role": "Associate Consultant",
+      "company": "Oracle",
+      "from": "SEP-2020",
+      "to": "APR-2022",
+      "techstack": ["OJET", "HTML", "CSS", "JavaScript", "KnockoutJS"]
+    }
+  ],
+  "education": {
+    "college": "Sathyabama Institute of Science and Technology",
+    "degree": "B.E CSE",
+    "from": 2016,
+    "to": 2020
+  },
+  "skills": ["Angular", "TypeScript", "JavaScript", "HTML", "CSS"]
+}
