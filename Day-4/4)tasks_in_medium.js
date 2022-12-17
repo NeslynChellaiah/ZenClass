@@ -465,3 +465,99 @@ friends.forEach((ele) => {
     }
 });
 console.log(out);
+
+
+// — — — — — — — — — — — — — — — -
+
+// Find the average in the array below.
+// Make sure you add only the numbers and do avg.
+
+const friendsInfo = [6, 12, 'Mari', 1, true, 'Munnabai', '200', 'CaptianAmerica', 8, 10];
+let count = 0;
+let total = 0;
+
+friendsInfo.forEach(ele => {
+    if (typeof ele == "number") {
+        count += 1;
+        total += ele;
+    }
+});
+console.log(total / count);
+
+// — — — — — — — — — — — — — — — -
+// Print the contents of the input variable
+
+var input = [
+['0001', 'Roman Alamsyah', 'Bandar Lampung', '21/05/1989', 'Membaca'],
+['0002', 'Dika Sembiring', 'Medan', '10/10/1992', 'Bermain Gitar'],
+['0003', 'Winona', 'Ambon', '25/12/1965', 'Memasak'],
+['0004', 'Bintang Senjaya', 'Martapura', '6/4/1970', 'Berkebun']
+]
+
+function dataHandling(input){
+for (var i = 0; i < input.length; i++) {
+//Your code goes here
+    console.log(...input[i])
+}
+}
+
+dataHandling(input);
+
+// — — — — — — — — — — — — — — — -
+
+// Objects:
+
+// What the output
+
+myobject = {1:one,"11":1,"name":"arun"}
+console.log(myobject.11); // 1
+console.log(myobject.name); // arun
+
+// Add a new key value pair to myobject
+// key : ten
+// value : ten
+
+myobject = {1:one,"11":1,"name":"arun"}
+//your code goes here
+myobject.ten = "ten";
+console.log(myobject);
+// {"1":"one","11":1,"name":"arun","ten":"ten"} // Quotes might not get displayed that fine.
+
+// Write out an object literal to represent the data below.
+// Guvi, Geek, 6, IIT-M RP,Chennai.
+let obj = {
+    firstName: "Guvi",
+    secondName: "Geek",
+    doorNumber: 6,
+    address: "IIT-M RP",
+    city: "Chennai"
+}
+
+// — — — — — — — — — — — — — — — -
+
+// How would you represent the following data using a combination of object literals and arrays? (You can describe a strategy without typing or writing out the whole thing.)
+
+// Guvi, Geek, 6, IIT-M RP,Chennai.
+// Amazon, Inc, 31, SP Infocity, Chennai.
+// Google, Alphabet, 34 Amphitheater Parkway, MountainView.
+// Tesla, Inc , 32, 333 Santana Row,San Jose.
+
+we can have an array of object literals representing the data.
+eg: 
+[
+    {
+        firstName: "Guvi",
+        secondName: "Geek",
+        doorNumber: 6,
+        address: "IIT-M RP",
+        city: "Chennai"
+    },
+    ......,
+    {
+        firstName: "Tesla",
+        secondName: "Inc",
+        doorNumber: 32,
+        address: "333 Santana Row",
+        city: "San Jose"
+    }
+]
