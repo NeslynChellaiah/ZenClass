@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    height: fit-content;
+    margin: 1rem !important;
+    border: 3px solid;
+    background-color: #fff;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.heading {
+    font-weight: 600 !important;
+    margin-block: 2rem;
+}
+
+.no-of-seats {
+    margin-bottom: 2rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.form-container {
+    border: 2px solid;
+    min-width: fit-content;
+}
+
+.img-container {
+    border: 1px solid;
+    padding: 1rem;
+}
+
+.img {
+    height: 8rem;
+    width: 5rem;
+    border: 1px solid;
+    border-radius: 50% !important;
+}
+
+.input {
+    border: 1px solid !important;
+}
+
+.label-container {
+    text-align: right;
+}
